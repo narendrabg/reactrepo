@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  /* Adjust as needed */
+}
+
+.Login--Button {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Login--input {
+  display: block;
+  margin: 2px;
+  padding: 2px;
+}
+.quizzical--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60vh;
+}
+h2,h4 {
+  margin: 5px;
+}
+button {
+  background-color: #151e3d;
+  border-radius: 5px;
+  width: 130px;
+  height: 25px;
+  font-style: normal;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.Questions--container {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.Questions--button {
+  margin-bottom: 10px;
+}
+.Questions--row {
+display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.Questions--select--button {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px;
+  padding:5px 5px;
+  min-width: 100px;
+  width: auto;
+  margin-right: 10px;
+  text-align: center;
+  font-style: normal;
+}
+
+.Questions--select--button.selected {
+  background-color: blue;
+}
+
+.Questions--select--button.correct {
+  background-color: green;
+}
+
+.Questions--select--button.incorrect {
+  background-color: red;
+}
+
+.answer-button {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.checkAnswersBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  height: 100vh;
+}
+.Login--Para {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.Login--input {
+  display:inline;
+  margin: 5px;
+}
